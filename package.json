@@ -1,0 +1,13 @@
+{
+  "name": "voicebox-openai-adapter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpenAI-compatible speech proxy for Voicebox",
+  "main": "openai-adapter.js",
+  "scripts": {
+    "start": "node openai-adapter.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
