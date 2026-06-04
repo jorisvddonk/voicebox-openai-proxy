@@ -348,7 +348,7 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, '127.0.0.1', () => {
+server.listen(PORT, '0.0.0.0', () => {
   log(`listening on http://127.0.0.1:${PORT}  (backend: ${VB})`);
   if (!FFMPEG) log('ffmpeg not found — audio conversion disabled, returning WAV for all formats');
   if (!API_KEYS) log('API_KEYS not set — authentication disabled');
